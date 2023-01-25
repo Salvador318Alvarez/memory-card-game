@@ -3,12 +3,18 @@
 }
 
 .card img {
-    display: block;
-    width: 20vw;
+    display: inline-flex;
     border: 2px solid white;
     border-radius: 6px;
+    width: 100%;
     margin: 0;
 }
+@media screen and (max-width: 767px) {
+    .card img{
+        width: 50%;
+    }
+    }
+
 
 
 /* front of card- the picture */
